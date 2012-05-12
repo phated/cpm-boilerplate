@@ -13,12 +13,12 @@ require([ 'PROJECTNAME' ], function ( PROJECTNAME ) {
 
 ### Building ###
 
-Building requires CoffeeScript and UglifyJS be installed
+Building requires Grunt.js be installed
 
-If you are using NPM, install the them with
+If you are using NPM, install it with
 
 ```
-npm install -g coffee-script uglify-js
+npm install -g grunt
 ```
 
 The build process generates a minified file named `main.js` in the root of the project.
@@ -26,6 +26,10 @@ The reason for this is that RequireJS and the Dojo Loader look for `main.js` unl
 This is mainly for cloning this repo directly and not using CPM.
 
 ### Change Log ###
+
+2012 05 11 - **Removed CoffeeScript + build file and added Grunt.js**
+
+* Use Grunt.js for build process and no more Coffee
 
 2012 02 19 - **Modified For My Use**
 
